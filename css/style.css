@@ -176,7 +176,7 @@ img {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: url('../assets/images/coverpic1.png') no-repeat center center/cover;
+    background: url('../assets/images/coverpic1.jpg') no-repeat center center/cover;
     position: relative;
     display: flex;
     justify-content: center;
@@ -745,4 +745,17 @@ footer p {
     .date-display {
         font-size: 1.2rem;
     }
+}/* Wedding Invitation Video */
+#invite-video .video-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#invite-video video {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    background-color: #000;
 }
