@@ -753,7 +753,7 @@ footer p {
     padding: 0 20px;
 }
 
-#invite-video video {
+#invite-video iframe {
     width: 100%;
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
